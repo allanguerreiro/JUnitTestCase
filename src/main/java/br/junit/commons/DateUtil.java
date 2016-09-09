@@ -36,8 +36,7 @@ public class DateUtil {
      * @param endDate   The end date.
      * @return true if the date falls between start date and end date.
      */
-    public boolean isDateBetween(final Date startDate,
-                                        final Date endDate) {
+    public boolean isDateBetween(final Date startDate, final Date endDate) {
         // check if end date is later than start date:
         if (startDate.compareTo(endDate) > 0) {
             throw new IllegalArgumentException("Start date cannot be greater than end date!");
