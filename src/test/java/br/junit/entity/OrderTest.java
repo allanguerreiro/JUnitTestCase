@@ -72,7 +72,7 @@ public class OrderTest {
         double valorOrder = order.getValor();
         double esperado = 260.0;
 
-        assertEquals(esperado, valorOrder);
+        assertEquals(esperado, valorOrder, 0.001);
     }
 
 }
